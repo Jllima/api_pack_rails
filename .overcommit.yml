@@ -1,0 +1,46 @@
+CommitMsg:
+  CapitalizedSubject:
+    enabled: false
+
+  EmptyMessage:
+    enabled: false
+
+  TrailingPeriod:
+    enabled: true
+
+  TextWidth:
+    enabled: false
+
+PreCommit:
+  ALL:
+    on_warn: fail
+
+  AuthorEmail:
+    enabled: true
+
+  AuthorName:
+    enabled: true
+    
+  BundleCheck:
+    enabled: true
+    
+  BundleAudit:
+    enabled: true
+    
+  Fasterer:
+    enabled: true
+    
+  RuboCop:
+    enabled: true
+  
+  RubyCritic:
+    enabled: true
+  
+  MergeConflicts:
+    enabled: true
+
+PrePush:
+  Brakeman:
+    enabled: true
+  RSpec:
+    enabled: true

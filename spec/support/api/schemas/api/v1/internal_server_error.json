@@ -1,0 +1,7 @@
+{
+  "id": "file:/internal_server_error.json#",
+  "type": "object",
+  "properties": {
+    "message": { "type": "string" }
+  }
+}

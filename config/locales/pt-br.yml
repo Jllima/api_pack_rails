@@ -1,0 +1,33 @@
+pt-BR:
+  resources:
+    user: Usuário
+  fields:
+    user:
+      name: Nome
+      username: Nome de usuário
+      email: Email
+      password: Senha
+      password_confirmation: Confirmação de senha
+      remember_me: Lembre-se de mim
+  errors:
+    messages:
+      invalid_credentials: Invalid Credentials 
+      record_not_found: Recurso Not Found
+      invalid_token: Token inválido
+      validations_failed: Validations Failed
+      password_format: deve possuir letras e números
+      email_format: formato de email inválido
+      parameter_missing: Parameter Missing
+      internal_server_error: Internal Server Error
+      missing_token: Token ausente
+      record_invalid: Recurso inválido
+      not_found: Not Found
+  activerecord:
+    models:
+      user: Usuário
+    attributes:
+      user:
+        username: Nome de usuário
+        email: Email
+        password: Senha
+        password_confirmation: Confirmação de senha

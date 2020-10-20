@@ -1,0 +1,8 @@
+{
+  "id": "file:/not_found_error.json#",
+  "type": "object",
+  "properties": {
+    "message": { "type": "string" },
+    "detais": { "type": "string" }
+  }
+}

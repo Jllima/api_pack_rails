@@ -1,0 +1,9 @@
+{
+  "id": "file:/record_error.json#",
+  "type": "object",
+  "properties": {
+    "resource": { "type": "integer" },
+    "field": { "type": "string" },
+    "message": { "type": "string" }
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "id": "file:/record_errors.json#",
+  "type": "object",
+  "properties": {
+    "message": { "type": "string" },
+    "detais": {
+      "type": "array",
+      "itens": { "$ref": "error.json" }
+    }
+  }
+}
